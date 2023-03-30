@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@test",
+        tags = "@desktopAutomation and not @ignore",
         stepNotifications = true,
         plugin = {
                 "json:target/cucumber-report/cucumber.json"

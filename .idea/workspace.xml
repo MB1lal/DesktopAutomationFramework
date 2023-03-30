@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559e6b0e-635c-4116-a00e-68f827c4cb05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/constants/SharedStateConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CalculatorPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CalcTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/WinDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CalcTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/serenity.properties" afterDir="false" />
+    <list default="true" id="559e6b0e-635c-4116-a00e-68f827c4cb05" name="Changes" comment="Added reference URL">
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/EnvSerenity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screens/ExcelSheetsScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screens/ExcelStartupScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ExcelTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CalculatorPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screens/CalculatorScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CalcTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CalcTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CalcTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CalcTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ExcelTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,17 +51,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bilal/IdeaProjects/DesktopAutomationAssignment&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bilal\IdeaProjects\DesktopAutomation\src\test\resources" />
       <recent name="C:\Users\bilal\IdeaProjects\DesktopAutomation\src\test\resources\drivers" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -108,7 +106,27 @@
       <option name="presentableId" value="Default" />
       <updated>1680107641596</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created basic windows automation framework for calculator">
+      <created>1680120672625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680120672625</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added reference URL">
+      <created>1680120737843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680120737844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created basic windows automation framework for calculator" />
+    <MESSAGE value="Added reference URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added reference URL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

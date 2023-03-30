@@ -1,7 +1,7 @@
-@test
-Feature: A sample testing feature
+@calculator @desktopAutomation
+Feature: Windows calculator tests
 
-  Scenario: A sample test scenario
+  Scenario: Summing two numbers
     Given User starts the calculator application
     When User inputs numbers
     And User presses equals

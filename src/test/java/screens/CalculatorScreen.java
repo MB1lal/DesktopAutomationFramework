@@ -1,10 +1,10 @@
-package pages;
+package screens;
 
 
 import io.appium.java_client.windows.WindowsDriver;
 import org.openqa.selenium.By;
 
-public class CalculatorPages {
+public class CalculatorScreen {
 
     private WindowsDriver windowsDriver;
 
@@ -18,7 +18,7 @@ public class CalculatorPages {
 
     String results = "CalculatorResults";
 
-    public CalculatorPages(WindowsDriver driver) {
+    public CalculatorScreen(WindowsDriver driver) {
         windowsDriver = driver;
     }
 
